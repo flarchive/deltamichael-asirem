@@ -2,13 +2,24 @@
 
 > **Read-only archive of released versions of deltamichael/asirem.** Not for installation: use [Packagist](https://packagist.org/packages/deltamichael/asirem) or the [upstream repository](https://github.com/DeltaMichael/asirem).
 
-**0** versions archived · Latest: [`0.1.19`](https://github.com/flarchive/deltamichael-asirem/tree/archive/v0.1.19) · License: `MIT` · Flarum: `^1.8.0`
+**11** versions archived · Latest: [`0.1.19`](https://github.com/flarchive/deltamichael-asirem/tree/archive/v0.1.19) · License: `MIT` · Flarum: `^1.8.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `0.1.10` | 2025-11-08 | `^1.8.0` | [Browse](https://github.com/flarchive/deltamichael-asirem/tree/archive/v0.1.10) |
+| `0.1.11` | 2025-11-08 | `^1.8.0` | [Browse](https://github.com/flarchive/deltamichael-asirem/tree/archive/v0.1.11) |
+| `0.1.12` | 2025-11-08 | `^1.8.0` | [Browse](https://github.com/flarchive/deltamichael-asirem/tree/archive/v0.1.12) |
+| `0.1.13` | 2025-11-08 | `^1.8.0` | [Browse](https://github.com/flarchive/deltamichael-asirem/tree/archive/v0.1.13) |
+| `0.1.14` | 2025-11-12 | `^1.8.0` | [Browse](https://github.com/flarchive/deltamichael-asirem/tree/archive/v0.1.14) |
+| `0.1.15` | 2025-11-12 | `^1.8.0` | [Browse](https://github.com/flarchive/deltamichael-asirem/tree/archive/v0.1.15) |
+| `0.1.16` | 2026-06-07 | `^1.8.0` | [Browse](https://github.com/flarchive/deltamichael-asirem/tree/archive/v0.1.16) |
+| `0.1.17` | 2026-06-07 | `^1.8.0` | [Browse](https://github.com/flarchive/deltamichael-asirem/tree/archive/v0.1.17) |
+| `0.1.18` | 2026-06-07 | `^1.8.0` | [Browse](https://github.com/flarchive/deltamichael-asirem/tree/archive/v0.1.18) |
+| `0.1.19` | 2026-06-07 | `^1.8.0` | [Browse](https://github.com/flarchive/deltamichael-asirem/tree/archive/v0.1.19) |
+
+[View all 11 versions](https://github.com/flarchive/deltamichael-asirem/tags)
 
 Catalog entry: [packages/deltamichael-asirem.json](https://github.com/flarchive/archive-index/blob/main/packages/deltamichael-asirem.json)
 
