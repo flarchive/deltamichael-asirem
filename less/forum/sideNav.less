@@ -1,0 +1,116 @@
+.sideNavOffset, .sideNav > ul {
+  margin-top: 0;
+}
+
+.AfruxWidgets-sideNavAlt {
+  padding-top: 0;
+}
+
+@media @desktop-up {
+  .sideNav {
+    .Dropdown--select .Dropdown-menu {
+      > li {
+        margin: 2px 0;
+
+        > a {
+          --icon-size: 30px;
+          padding: 6px;
+          display: grid;
+          grid-template-columns: var(--icon-size) 1fr;
+          align-items: center;
+          border-radius: @border-radius;
+          transition: background-color 0.4s, color 0.4s;
+          font-size: 14px;
+          grid-gap: 10px;
+
+          .Button-icon {
+            .asirem-icon-block(var(--icon-size));
+            float: none;
+            margin: 0;
+            border-radius: 100%;
+            transition: background-color 0.4s;
+          }
+
+          .Button-label {
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+        }
+
+        &.active {
+          > a {
+            background-color: @asirem-primary-bg;
+            font-weight: 600;
+
+            .Button-icon {
+              background-color: @asirem-body-bg;
+            }
+          }
+        }
+
+        &:hover {
+          > a {
+            background-color: @asirem-control-bg;
+            color: @asirem-text-color;
+
+            .Button-icon {
+              background-color: @asirem-body-bg;
+            }
+          }
+        }
+      }
+      > li[class^="item-tag"]:not(.item-tags) a {
+        font-size: 13px;
+
+        .icon {
+          --size: 24px;
+        }
+      }
+
+      > li[class^="item-tag"]:not(.item-tags) {
+        .asirem-border-radius(~".Button-icon");
+
+        > a .Button-icon {
+          background-color: var(--color, @asirem-control-bg);
+          color: @asirem-body-bg;
+        }
+
+        > a .Button-icon.TagIcon {
+          width: 24px !important;
+          height: 24px !important;
+          box-sizing: border-box;
+          border: 2px solid @asirem-control-bg;
+          border-radius: @asirem-border-radius-a;
+          box-shadow: 0 0 0 1px var(--color, @asirem-control-bg), 0 0 0 3px @asirem-control-bg;
+        }
+
+        > a .Button-icon.Asirem-TagArtwork,
+        &:hover > a .Button-icon.Asirem-TagArtwork,
+        &.active > a .Button-icon.Asirem-TagArtwork {
+          width: 24px !important;
+          height: 24px !important;
+          box-sizing: border-box;
+          border: 2px solid @asirem-control-bg;
+          border-radius: @asirem-border-radius-a;
+          box-shadow: 0 0 0 1px var(--color, @asirem-control-bg), 0 0 0 3px @asirem-control-bg;
+          background: transparent;
+          object-fit: cover;
+        }
+
+        &:hover > a .Button-icon,
+        &.active > a .Button-icon {
+          background-color: var(--color, @asirem-control-bg);
+        }
+      }
+
+      > .Dropdown-separator {
+        margin: 12px 0;
+      }
+    }
+  }
+
+  .sideNavContainer {
+    margin-top: 30px;
+  }
+
+}
