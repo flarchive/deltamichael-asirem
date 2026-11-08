@@ -1,0 +1,29 @@
+.Post {
+  margin: 0 0 16px;
+  background: @asirem-control-bg;
+  border-radius: @border-radius;
+  border: 1px solid @asirem-surface-border;
+  box-shadow: 0 1px 2px color-mix(in srgb, var(--shadow-color) 6%, transparent);
+}
+
+.PostStream-item {
+  &:not(:last-child) {
+    border-bottom: none;
+  }
+}
+
+.ReplyPlaceholder {
+  margin-top: 30px;
+}
+
+.EventPost {
+  background-color: transparent;
+
+  .Post-footer {
+    display: none;
+  }
+}
+
+.EventPost .Post-actions, .Post--hidden:not(.revealContent) .Post-actions {
+  margin-top: -30px;
+}
