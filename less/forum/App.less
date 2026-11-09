@@ -1,0 +1,82 @@
+.App {
+  padding-bottom: 0;
+
+  &-footer {
+    &:empty {
+      display: none;
+    }
+  }
+}
+
+.Page.Asirem-TagsPage .FofWidgets-sideNavAlt {
+  display: none !important;
+}
+
+.Asirem-TagsPage-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Asirem-TagsPage-onlineUsers--mobile {
+  display: none;
+}
+
+.Asirem-TagsPage-forumStatistics {
+  display: block;
+}
+
+@media @tablet, @phone {
+  .Asirem-TagsPage-onlineUsers--desktop {
+    display: none;
+  }
+
+  .Asirem-TagsPage-forumStatistics {
+    display: none;
+  }
+
+  .Asirem-TagsPage-onlineUsers--mobile {
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+@media @tablet-up {
+  .DiscussionPage .Page-container {
+    max-width: @screen-desktop-hd;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .App {
+    display: flex;
+    flex-direction: column;
+
+    &-content {
+      flex-grow: 1;
+      border-top: 0;
+    }
+  }
+
+  .container {
+    padding: 0;
+  }
+}
+
+@media @tablet {
+  .DiscussionPage .Page-container {
+    max-width: @screen-tablet;
+  }
+}
+
+@media @desktop {
+  .DiscussionPage .Page-container {
+    max-width: @screen-desktop;
+  }
+}
+
+@media @desktop-hd {
+  .DiscussionPage .Page-content {
+    margin-left: 0;
+  }
+}
