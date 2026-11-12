@@ -1,0 +1,75 @@
+{
+    "name": "deltamichael/asirem",
+    "description": "The weird Flarum theme made with potatoes as fuel, by Afrux.",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "php": "^8.3",
+        "flarum/core": "^2.0"
+    },
+    "funding": [
+        {
+            "type": "other",
+            "url": "https://www.buymeacoffee.com/sycho"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Sami Mazouz",
+            "email": "ilyasmazouz@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/afrux/asirem/issues",
+        "source": "https://github.com/afrux/asirem",
+        "forum": "https://discuss.flarum.org/d/27939"
+    },
+    "autoload": {
+        "psr-4": {
+            "Deltamichael\\Asirem\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Deltamichael\\Asirem\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-flarum-2-port": "2.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Asirem",
+            "category": "theme",
+            "optional-dependencies": [
+                "flarum/tags",
+                "flarum/approval",
+                "sycho/flarum-advanced-extension-categories"
+            ],
+            "icon": {
+                "image": "icon.svg"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": true,
+                "forum": true,
+                "js": true,
+                "jsCommon": false,
+                "css": true,
+                "gitConf": true,
+                "githubActions": true,
+                "prettier": true,
+                "typescript": true,
+                "bundlewatch": false,
+                "backendTesting": false,
+                "editorConfig": true,
+                "styleci": true
+            }
+        }
+    }
+}
